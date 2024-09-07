@@ -1,0 +1,15 @@
+@import "./settings.css";
+@import "./header/navinfos.css";
+@import "./navbar/navbar.css";
+@import "./navbar/navbutton.css";
+@import "./footer/footer.css";
+@import "./home/aboutus.css";
+@import "./home/homebanner.css";
+@import "./home/patient.css";
+@import "./home/bloc_flex.css";
+@import "./home/news.css";
+@import "./home/donation.css";
+@import "./Pages.css";
+@import "./content.css";
+@import "./Programmes.css";
+@import "./organigrammes.css"

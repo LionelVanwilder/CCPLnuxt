@@ -10,8 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "^8.5.2",
+    "@supabase/supabase-js": "^2.45.3",
     "nuxt": "^3.13.0",
     "vue": "latest",
+    "vue-i18n": "^9.14.0",
     "vue-router": "latest"
   }
 }

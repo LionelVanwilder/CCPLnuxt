@@ -1,0 +1,24 @@
+<template>
+    <div class="donation-container"  data-aos="fade-up" data-aos-duration="1000">
+        <img src="../../public/images/DonationNEW.svg" class="icon-bloc-flex">
+        <div class="donation-row">
+            <div class="donation-image-wrapper">
+                <img src="../../public/images/don.webp" accesskey="" alt="Soutenir le Centre Comprendre et Parler">
+            </div>
+            <div class="donation-content-wrapper">
+                
+                <span v-html="$t('homedonation.title')"></span>
+                
+                <p>
+                    {{ $t("homedonation.content") }}
+                </p>
+                <router-link to="/Don">{{ $t("homedonation.button") }}</router-link>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+    export default{
+        name: 'DonationSection',
+    }
+</script>
