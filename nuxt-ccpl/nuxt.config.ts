@@ -8,6 +8,8 @@ export default defineNuxtConfig({
     './plugins/i18n.ts' // Assurez-vous que le chemin est correct
   ],
 
+  target: 'static',
+
   app: {
     head: {
       title: 'Comprendre et Parler',
