@@ -4,6 +4,7 @@
   </div>
   <main>
     <AboutUs></AboutUs>
+    <Gallery></Gallery>
     <PatientGrid></PatientGrid>
     <BlocFlex></BlocFlex>
     <NewsSection></NewsSection>
@@ -22,6 +23,7 @@ import NewsSection from "../components/home/news/news.vue"
 import DonationSection from "../components/home/Donation.vue"
 import CarouselApp from "../components/home/carousel/carousel.vue"
 import { useHead } from '#app'
+import Gallery from "../components/home/gallery.vue"
 
 export default {
   name: 'HomePage',
@@ -33,7 +35,8 @@ export default {
     BlocFlex,
     NewsSection,
     DonationSection,
-    CarouselApp
+    CarouselApp,
+    Gallery
    
   },
 

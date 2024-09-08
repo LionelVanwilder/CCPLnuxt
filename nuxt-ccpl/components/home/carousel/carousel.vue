@@ -21,7 +21,7 @@
               <router-link  :to="item.path" class="news-card carousel-card" :style="{ backgroundColor: item.color }">
                 <span class="carousel-date" :style="{ backgroundColor: item.color }">{{ item.title }}</span>
                 <div class="carousel__img-container">
-                  <img :src="item.image">
+                  <img :src="item.image" alt="item.alt">
                 </div>
               </router-link>
             </div>
@@ -77,29 +77,33 @@
             title: this.$t('navbar.links.program'),
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
             image: progrImage,
-            color: '#EA3788',
-            path: '/Programmes'
+            color: '#005387',
+            path: '/Programmes',
+            alt: 'Programmes'
           },
           {
             title: this.$t('navbar.links.skills'),
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
             image: compImage,
-            color: '#004FFF',
-            path: '/Competences'
+            color: '#005387',
+            path: '/Competences',
+            alt: 'Compétences'
           },
           {
             title: this.$t('navbar.links.collab'),
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
             image: collabImage,
-            color: '#29bf12',
-            path: '/Collaborations/Partenaires'
+            color: '#005387',
+            path: '/Collaborations/Partenaires',
+            alt: 'Collaborations'
           },
           {
             title: this.$t('navbar.links.doc'),
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
             image: docImage,
-            color: '#E71D36',
-            path: '/SAFP/Surdite'
+            color: '#005387',
+            path: '/SAFP/Surdite',
+            alt: 'SAFP'
           }
         ];
       }
