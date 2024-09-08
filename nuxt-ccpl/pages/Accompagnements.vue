@@ -37,7 +37,7 @@ export default{
       meta: [
         {
           name: 'description',
-          content: 'Nous assistons les étudiants sourds dans leurs études supérieures, en offrant une aide personnalisée : coordination de projet, accompagnement pédagogique, prises de notes et interprétation des cours. Le suivi est soumis à l\'approbation des pouvoirs subsidiants comme PHARE ou AWIPH.',
+          content: 'Nous assistons les étudiants sourds dans leurs études supérieures, en offrant une aide personnalisée',
         },
         {
           name: 'keywords',
