@@ -30,16 +30,17 @@
 }
 
 .aboutus a{
-    color: #ffffff;
+    color: #005387;
     letter-spacing: 1.2px;
-    background-color: #005387;
+    background-color: #ffffff;
     padding: 0.7rem;
-    border: 1px solid #005387;
+    border: 2px solid #005387;
     border-radius: 6px;
 }
 
 .aboutus a:hover{
-    text-decoration: underline;
+    background-color: #005387;
+    color: #ffffff;
 }
 
 @media all and (max-width: 1366px){

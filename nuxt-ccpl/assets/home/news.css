@@ -56,7 +56,7 @@
 .news-card h3{
     font-size: 1.5rem;
     margin-top: 1.5rem;
-    color: #005387;
+    color: #444444;
     padding: 0 2rem;
     font-weight: 600;
     letter-spacing: 1.2px;
@@ -94,15 +94,17 @@
     letter-spacing: 1.5px;
     cursor: pointer;
     color: #ffffff;
+    border: 2px solid #005387;
     transition: transform .3s ease-in-out;
-    background-color: #991653;
+    background-color: #005387;
     padding: 0.7rem;
     border-radius: 6px;
     margin-top: 1.3rem;
 }
 
 .news-card a:hover{
-    text-decoration: underline;
+    background-color: #005387;
+    color: #ffffff;
     transform: translateX(10px);
 
 }

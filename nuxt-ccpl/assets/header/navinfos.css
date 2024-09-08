@@ -16,7 +16,7 @@
 }
 
 #infosbutton:hover{
-    background-color: #A90F4A;
+    background-color: #005387;
     color: #ffffff;
     transition: .1s ease-out;
 }
@@ -24,9 +24,9 @@
 
 #infosbutton{
     background-color: #ffffff;
-    color: #A90F4A;
+    color: #005387;
     text-decoration: inherit;
-    border: 1px solid #A90F4A;
+    border: 2px solid #005387;
     transition: .1s ease-out;
     padding: .3rem;
 }
