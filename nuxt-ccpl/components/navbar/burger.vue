@@ -1,12 +1,12 @@
 <template>
     <div class="sidenav" :class="{ 'open': displayMenu }" id="sidenav">
         <button class="OpenMenu" @click="toggleMenu" aria-label="Name">
-            <img src="../../public/images/burger-icon.svg">
+            <img src="../../public/images/burger-icon.svg" alt="menu mobile">
         </button>
         <div class="menu-container animation-menu " v-if="displayMenu">
             <div class="burger-close-btn">
                 <button class="CloseMenu" @click="toggleMenu">
-                    <img src="../../public/images/xmark-solid.svg">
+                    <img src="../../public/images/xmark-solid.svg" alt="menu mobile close">
                 </button>
             </div>
             <ul>
@@ -18,7 +18,7 @@
             </ul>
             <ul class="burger-info">
                 <li>
-                    <a target="_blank" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47c3dc9b63dbd941:0xeb71a7aeb16468?sa=X&ved=2ahUKEwjjutrVudGEAxWIm_0HHfJLDe8Q4kB6BAgOEAA">
+                    <a target="_blank" rel="noopener" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47c3dc9b63dbd941:0xeb71a7aeb16468?sa=X&ved=2ahUKEwjjutrVudGEAxWIm_0HHfJLDe8Q4kB6BAgOEAA">
                         <img src="../../public/images/location-dot-solid-w.svg" alt="" class="icon-navinfo">
                         {{ $t("banner.adress") }}
                     </a>

@@ -8,10 +8,6 @@
         <p>
             {{ $t('program.specialization.kinderintro') }}
         </p>
-        <ol>
-            <li>{{ $t('program.specialization.list1') }}</li>
-            <li>{{ $t('program.specialization.list2') }}</li>
-        </ol>
         <p>
             {{ $t('program.specialization.goal') }} 
         </p>
@@ -23,10 +19,6 @@
         <p>
             {{ $t('program.specialization.Primaryintro') }} 
         </p>
-        <ol>
-            <li>{{ $t('program.specialization.list1') }}</li>
-            <li>{{ $t('program.specialization.list2') }}</li>
-        </ol>
         <p>
             {{ $t('program.specialization.goal') }} 
         </p>
@@ -38,10 +30,6 @@
         <p>
             {{ $t('program.specialization.supintro') }}
         </p>
-        <ol>
-            <li>{{ $t('program.specialization.list1') }}</li>
-            <li>{{ $t('program.specialization.list2') }}</li>
-        </ol>
         <p>
             {{ $t('program.specialization.supgoal1') }}
         </p>

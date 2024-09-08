@@ -7,7 +7,7 @@
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
-                <img src="../../public/images/gallery2.webp" alt="Batiment du centre comprendre et parler">
+                <img src="../../public/images/batiment-centre-comprendre-et-parler.webp" alt="Batiment du centre comprendre et parler">
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
@@ -15,7 +15,7 @@
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
-                <img src="../../public/images/gallery4.webp" alt="Dr Olivier Périer">
+                <img src="../../public/images/Dr-Olivier-Perier.webp" alt="Dr Olivier Périer">
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
@@ -23,7 +23,7 @@
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
-                <img src="../../public/images/gallery6.webp" alt="equipe du Centre Comprendre et parler">
+                <img src="../../public/images/equipe-du-centre-comprendre-et-parler.webp" alt="equipe du Centre Comprendre et parler">
             </div>
             
         </div>

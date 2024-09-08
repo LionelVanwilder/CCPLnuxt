@@ -61,11 +61,11 @@
         setup() {
     // Définir les métadonnées de la page
     useHead({
-      title: 'Contact | CCP asbl',
+      title: 'Infos pratiques | CCP asbl',
       meta: [
         {
           name: 'description',
-          content: 'Découvrez les informations pratiques du Centre Comprendre et Parler : horaires du lundi au vendredi de 08:30 à 17:00, accès facile depuis l\'arrêt Alma, avec parking disponible. Contactez-nous par e-mail à info@ccpasbl.be ou par téléphone au +32 2 770 04 40. Suivez-nous sur LinkedIn et Facebook pour plus d\'actualités.',
+          content: 'Découvrez les informations pratiques du Centre Comprendre et Parler : horaires du lundi au vendredi de 08:30 à 17:00, accès facile depuis l\'arrêt Alma, avec parking disponible.',
         },
         {
           name: 'keywords',

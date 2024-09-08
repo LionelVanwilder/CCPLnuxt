@@ -2,7 +2,7 @@
     <div id="news" data-aos="fade-up" data-aos-duration="1000">
         <h2 data-aos="fade-up" data-aos-duration="1000">{{ $t("news.title") }}</h2>
         <div class="container-news">
-            <img src="../../../public/images/newsnew.svg" class="icon-bloc-flex">
+            <img src="../../../public/images/actualites-du-centre.svg" class="icon-bloc-flex" alt="icone actus">
             <article class="news-card card-radius" v-for="card in news" :key="card.id" 
             data-aos="fade-up"
             data-aos-anchor="#aosanchor"

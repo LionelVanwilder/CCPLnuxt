@@ -1,9 +1,9 @@
 <template>
     <div class="donation-container"  data-aos="fade-up" data-aos-duration="1000">
-        <img src="../../public/images/DonationNEW.svg" class="icon-bloc-flex">
+        <img src="../../public/images/DonationNEW.svg" class="icon-bloc-flex" alt="Don">
         <div class="donation-row">
             <div class="donation-image-wrapper">
-                <img src="../../public/images/don.webp" accesskey="" alt="Soutenir le Centre Comprendre et Parler">
+                <img src="../../public/images/Soutenir-le-centre-comprendre-et-parler.webp" accesskey="" alt="Soutenir le Centre Comprendre et Parler">
             </div>
             <div class="donation-content-wrapper">
                 

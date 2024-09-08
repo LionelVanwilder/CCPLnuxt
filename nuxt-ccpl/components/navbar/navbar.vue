@@ -1,7 +1,7 @@
 <template>
     <nav class="main-nav">
     <div class="navlogo-don">
-        <RouterLink to="/"><img src="../../public/images/logotypo.svg" class="logoimgnav" alt="Logo du Centre Comprendre et Parler asbl"></RouterLink>
+        <RouterLink to="/"><img src="../../public/images/logo-centre-comprendre-et-parler.svg" class="logoimgnav" alt="Logo du Centre Comprendre et Parler asbl"></RouterLink>
         <NavButton></NavButton>
         <BurgerNav></BurgerNav>
     </div>

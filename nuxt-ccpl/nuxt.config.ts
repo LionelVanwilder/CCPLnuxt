@@ -20,6 +20,10 @@ export default defineNuxtConfig({
   // Configuration pour la génération statique
   app: {
     head: {
+
+      htmlAttrs: {
+        lang: 'fr'
+      },
       title: 'Comprendre et Parler',
       meta: [
         { charset: 'utf-8' },
