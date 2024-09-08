@@ -8,6 +8,7 @@
     <BlocFlex></BlocFlex>
     <NewsSection></NewsSection>
     <DonationSection></DonationSection>
+    <CarouselApp></CarouselApp>
   </main>
     
 </template>
@@ -19,6 +20,7 @@ import PatientGrid from "../components/home/patient.vue"
 import BlocFlex from "../components/home/bloc-flex.vue"
 import NewsSection from "../components/home/news/news.vue"
 import DonationSection from "../components/home/Donation.vue"
+import CarouselApp from "../components/home/carousel/carousel.vue"
 import { useHead } from '#app'
 
 export default {
@@ -30,7 +32,8 @@ export default {
     PatientGrid,
     BlocFlex,
     NewsSection,
-    DonationSection
+    DonationSection,
+    CarouselApp
    
   },
 

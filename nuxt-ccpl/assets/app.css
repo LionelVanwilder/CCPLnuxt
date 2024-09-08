@@ -12,4 +12,5 @@
 @import "./Pages.css";
 @import "./content.css";
 @import "./Programmes.css";
-@import "./organigrammes.css"
+@import "./organigrammes.css";
+@import "./home/carousel/carousel.css"

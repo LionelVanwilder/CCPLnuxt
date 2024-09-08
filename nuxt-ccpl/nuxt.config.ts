@@ -2,11 +2,16 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   css: [
-    '@/assets/app.css'
+    '@/assets/app.css',
+    'vue3-carousel/dist/carousel.css'
   ],
+
   plugins: [
     './plugins/i18n.ts' // Assurez-vous que le chemin est correct
   ],
+
+  build:
+    {transpile: ['vue3-carousel']},
 
   ssr: true,
 
@@ -41,5 +46,7 @@ export default defineNuxtConfig({
       ],
       __dangerouslyDisableSanitizers: ['script']
     }
-  }
+  },
+
+  modules: ['vue3-carousel-nuxt']
 })
