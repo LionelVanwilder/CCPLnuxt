@@ -45,7 +45,24 @@
                 { to: '/Education', label: this.$t('navbar.dropdown.program.education') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Education précoce | CCPL asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez notre programme d\'éducation précoce pour enfants de 0 à 3 ans avec déficience auditive. Nous offrons un accompagnement personnalisé, incluant le home training pour stimuler la communication et le langage, ainsi qu\'un soutien psychologique aux parents. Pour les enfants entendants dans des foyers utilisant la langue des signes, notre programme aide à développer leurs capacités auditives et langagières. Explorez comment nous aidons les familles à favoriser le développement optimal de leurs enfants.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
         }
 </script>
 <style scoped>

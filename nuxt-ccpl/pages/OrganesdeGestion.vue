@@ -52,7 +52,24 @@
                 { to: '/OrganesdeGestion', label: this.$t('blocflex.cards.gestion') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Organes de gestion | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez la structure de gestion du Centre Comprendre et Parler : l\'Assemblée Générale, le Conseil d\'Administration, le Comité Exécutif, et le Conseil de Direction, assurant la bonne gouvernance et le fonctionnement quotidien de l\'ASBL.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
  
  }
  </script>

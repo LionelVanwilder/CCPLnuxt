@@ -59,7 +59,24 @@ export default{
                 { to: '/SAFP/Surdite', label: this.$t('navbar.dropdown.doc.deafness') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Surdité | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez les recommandations du BIAP pour la prise en charge de la surdité, couvrant le développement du langage, les aides techniques et audiologiques. Explorez les ressources pour la Langue des Signes, le LPC (Langue française Parlée Complétée), et des outils comme SignWriting®. Pour plus d\'informations, contactez le CHU Sart Tilman ou visitez les associations spécialisées.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

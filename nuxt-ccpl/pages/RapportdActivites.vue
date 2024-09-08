@@ -84,7 +84,24 @@
                 { to: '/RapportdActivites', label: this.$t('blocflex.cards.activity') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Rapports | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Accédez aux rapports d\'activités annuels du Centre Comprendre et Parler, retraçant les actions et accomplissements des dernières années. Consultez les rapports en format PDF, disponibles de 2010 à 2017.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
  
  }
  </script>

@@ -39,7 +39,24 @@ export default{
                 { to: '/AssistancesSociales', label: this.$t('navbar.dropdown.skills.assistance') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Assistances sociales | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Nos assistantes sociales soutiennent les familles et les jeunes adultes sourds, les aidant dans leurs démarches administratives et leur autonomie, tout en collaborant à la rééducation. Les éducateurs créent des environnements stimulants pour le développement harmonieux des enfants sourds, en animant des activités individuelles et en groupe.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

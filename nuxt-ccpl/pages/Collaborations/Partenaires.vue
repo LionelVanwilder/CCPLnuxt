@@ -55,7 +55,24 @@ export default{
                 { to: '/Collaborations/Partenaires', label: this.$t('navbar.dropdown.collab.partner') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Partenaires | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez les partenaires privilégiés du Centre Comprendre et Parler',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

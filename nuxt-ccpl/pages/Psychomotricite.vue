@@ -42,7 +42,24 @@ export default{
                 { to: '/Psychomotricite', label: this.$t('navbar.dropdown.skills.psychomotor') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Psychomotricité | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Au Centre Comprendre et Parler, les psychomotriciens spécialisés soutiennent les enfants sourds dans le développement psychomoteur et la rééducation. Ils travaillent sur l’adaptation corporelle, l’équilibre, et les interactions sociales, en utilisant des thérapies individuelles et collectives pour favoriser une meilleure intégration corporelle et relationnelle, essentiel à l\'épanouissement et à l\'autonomie des enfants.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

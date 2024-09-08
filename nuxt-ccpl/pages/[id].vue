@@ -38,6 +38,20 @@ export default {
   },
 
   setup() {
+
+    useHead({
+      title: 'Actualités | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez les actualités du Centre Comprendre et Parler',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients, don',
+        }
+      ]
+    });
     const route = useRoute();
     const article = ref(null);
     const { locale } = useI18n();

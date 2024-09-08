@@ -50,7 +50,24 @@
                 { to: '/Histoire', label: this.$t('blocflex.cards.history') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Histoire | CCPL asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Explorez l\'évolution du Centre Comprendre et Parler depuis sa fondation en 1965 par le Docteur Olivier Périer. Découvrez comment le Centre a intégré des méthodes innovantes de rééducation, comme le LPC et le FCSC, et les récentes avancées technologiques telles que les implants cochléaires. Suivez notre parcours de l\'utilisation exclusive de méthodes audio-orales à l\'adoption des techniques visuelles et de soutien aux troubles concomitants.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
  
  }
  </script>

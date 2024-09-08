@@ -26,7 +26,24 @@
                 { to: '/Depistage', label: this.$t('navbar.dropdown.program.screening') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Dépistage | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Le service Dépistage évalue et diagnostique la surdité en maternité (CHIREC, Edith Cavell) ou au Centre. En cas de risques potentiels ou d\'antécédents familiaux, nous assurons le suivi jusqu\'au diagnostic ou l\'exclusion de la surdité. Environ 3.000 bébés et jeunes enfants sont testés chaque année, avec confirmation et coordination des diagnostics avec les hôpitaux et médecins externes.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

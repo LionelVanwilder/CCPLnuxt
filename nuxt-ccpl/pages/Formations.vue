@@ -28,7 +28,24 @@
                     { to: '/Formations', label: this.$t('navbar.dropdown.program.formations') }
                 ];
             }
+        },
+
+        setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Formations extérieures | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Explorez nos formations sur la surdité et la méthode « Langue en Mouvements » au Centre Comprendre et Parler. Nous offrons des sessions pour enseignants, logopèdes, et professionnels du secteur, ainsi que des formations de base et avancées.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
         }
+      ]
+    })
+  }
         }
     </script>
     <style scoped>

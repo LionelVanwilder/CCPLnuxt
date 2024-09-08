@@ -37,7 +37,24 @@ export default{
                 { to: '/Medecins', label: this.$t('navbar.dropdown.skills.doctor') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Médecins - ORL | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Au Centre Comprendre et Parler, le médecin-directeur supervise les méthodes de rééducation, dirige les équipes et assure le suivi des patients. Il intervient directement avec les enfants et leurs familles, établit des contacts avec la communauté des sourds, et collabore avec des médecins externes pour une prise en charge complète. Les médecins ORL réalisent les examens nécessaires pour le diagnostic et le suivi des déficiences auditives.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

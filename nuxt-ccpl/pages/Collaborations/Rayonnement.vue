@@ -50,7 +50,24 @@ export default{
                 { to: '/Collaborations/Rayonnement', label: this.$t('navbar.dropdown.collab.influence') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Rayonnement du centre | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez le rayonnement du Centre Comprendre et Parler',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

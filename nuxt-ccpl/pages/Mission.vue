@@ -58,7 +58,23 @@
                  { to: '/Mission', label: this.$t('blocflex.cards.mission') }
              ];
          }
-     }
+     },
+
+     setup() {
+    useHead({
+      title: 'Mission et valeurs | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Le Centre Comprendre et Parler accompagne les enfants et adultes sourds grâce à un projet individualisé axé sur l\'épanouissement, l\'autonomie et l\'intégration des technologies, tout en valorisant l\'éthique, la langue des signes et la formation continue.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients, missions et valeurs',
+        }
+      ]
+    })
+  }
   
   }
   </script>

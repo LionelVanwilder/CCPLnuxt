@@ -48,6 +48,23 @@
     export default{
         name: 'CompetencesPage',
 
+        setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Compétences | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez les compétences multidisciplinaires des professionnels du Centre Comprendre et Parler. Nous développons les capacités linguistiques et l\'autonomie des enfants sourds grâce à une approche collaborative intégrant logopédie, langue des signes, soutien social, psychologie et soins médicaux spécialisés.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
+
        
 
 

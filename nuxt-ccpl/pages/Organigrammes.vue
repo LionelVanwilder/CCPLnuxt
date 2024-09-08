@@ -126,7 +126,24 @@
                 { to: '/Organigrammes', label: this.$t('blocflex.cards.organ') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Organigramme | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez la structure organisationnelle du Centre Comprendre et Parler, avec ses équipes professionnelles multidisciplinaires dirigées par des experts en médecine, communication, assistance sociale, psychologie, et rééducation. Page en construction.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
  
  }
  </script>

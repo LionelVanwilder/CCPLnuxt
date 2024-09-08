@@ -25,6 +25,23 @@
     export default{
         name: 'ProgrammesPage',
 
+        setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Programmes | CCPL',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez les programmes et services du Centre Comprendre et Parler, offrant une prise en charge individualisée des enfants et personnes malentendantes. Explorez notre approche multidisciplinaire incluant le dépistage auditif, l\'utilisation d\'implants cochléaires, le suivi à domicile, et l\'intégration scolaire. Nous collaborons étroitement avec les familles pour soutenir le développement linguistique et communicationnel à chaque étape de la vie.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
+
 
     }
 </script>

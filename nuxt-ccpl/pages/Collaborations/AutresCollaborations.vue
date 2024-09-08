@@ -59,7 +59,24 @@ export default{
                 { to: '/Collaborations/Autrescollaborations', label: this.$t('navbar.dropdown.collab.other') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Autres collaborations | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez les autres collaborations du Centre Comprendre et Parler',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

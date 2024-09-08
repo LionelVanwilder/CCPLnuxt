@@ -40,7 +40,23 @@
                 { to: '/Quisommesnous', label: this.$t('Aboutus.title') }
             ];
         }
-    }
+    },
+
+    setup() {
+    useHead({
+      title: 'Qui sommes-nous? | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Le Centre Comprendre et Parler, fondé en 1965, est une ASBL spécialisée dans la réhabilitation fonctionnelle des enfants sourds. Avec une équipe multidisciplinaire de 110 professionnels, le centre accompagne plus de 600 enfants et leurs familles dans le développement de leur langage et autonomie.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

@@ -33,7 +33,24 @@ export default{
                 { to: '/Logopedie', label: this.$t('navbar.dropdown.skills.logo') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Logopédie | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Le service de logopédie du Centre Comprendre et Parler offre une rééducation individuelle et collective pour améliorer la communication des enfants avec déficience auditive. Les logopèdes utilisent des activités variées et des supports attractifs pour développer les compétences linguistiques. Ils intègrent la langue des signes lorsque nécessaire et impliquent les parents dans le processus d\'accompagnement.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

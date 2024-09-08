@@ -71,7 +71,24 @@ export default{
                 { to: '/Specialisation', label: this.$t('navbar.dropdown.program.spec') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Spécialisation | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Explorez nos programmes de rééducation spécialisée pour enfants avec déficience auditive, de la maternelle au niveau secondaire et supérieur. Nous offrons une éducation sur mesure en coordination avec l\'« École Intégrée » et les écoles ordinaires. Chaque programme vise à améliorer les compétences en communication orale et, lorsque nécessaire, à utiliser des moyens de communication par signes. Découvrez comment nous soutenons le développement langagier et académique des enfants à différents niveaux d\'enseignement.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

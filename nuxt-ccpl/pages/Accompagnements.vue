@@ -28,7 +28,24 @@ export default{
                 { to: '/Accompagnements', label: this.$t('navbar.dropdown.skills.acc') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Accompagnements | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Nous assistons les étudiants sourds dans leurs études supérieures, en offrant une aide personnalisée : coordination de projet, accompagnement pédagogique, prises de notes et interprétation des cours. Le suivi est soumis à l\'approbation des pouvoirs subsidiants comme PHARE ou AWIPH.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

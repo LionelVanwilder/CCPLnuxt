@@ -31,7 +31,24 @@ export default{
                 { to: '/Audiologie', label: this.$t('navbar.dropdown.skills.audio') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Audiologie | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Le service d\'audiologie du Centre Comprendre et Parler évalue et ajuste les déficiences auditives, adapte les appareils auditifs, programme les implants cochléaires et assure le suivi audiologique. Composé de 5 audiologistes pédiatriques spécialisés, le service offre des solutions adaptées aux enfants, enrichies par des collaborations et formations régulières.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

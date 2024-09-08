@@ -29,7 +29,24 @@
                 { to: '/Integration', label: this.$t('navbar.dropdown.program.integration') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Intégration | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez notre programme d\'intégration qui soutient les enfants et adolescents avec déficience auditive dans leur évolution linguistique et communicationnelle. Nous favorisons leur intégration dans l\'enseignement ordinaire en assurant un soutien personnalisé, y compris des interprètes en communication visuelle pour les besoins spécifiques des élèves avec déficience auditive profonde. Notre objectif est de faciliter leur transition vers une intégration sociale et académique réussie.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

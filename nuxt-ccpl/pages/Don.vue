@@ -50,7 +50,24 @@ export default{
                 { to: '/Don', label: this.$t('breadcrumbs.donation') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Nous soutenir | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Soutenez le Centre Comprendre et Parler en faisant un don ! Votre générosité aide à financer nos projets et améliorer la vie des enfants et familles que nous accompagnons. Recevez une attestation fiscale pour les dons de 40 € et plus. Pour faire un don, choisissez entre domiciliation, virement bancaire ou don en ligne.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients, don',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>

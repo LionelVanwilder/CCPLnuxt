@@ -31,7 +31,24 @@
                 { to: '/Services', label: this.$t('navbar.dropdown.program.services') }
             ];
         }
-    }
+    },
+
+    setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Services | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Explorez les services offerts par le Centre Comprendre et Parler pour soutenir les enfants et étudiants sourds. Notre Service d’Appui à la Formation Professionnelle aide les enfants avec implants cochléaires à améliorer leurs capacités de communication et leur intégration sociale. Le Service d’Accompagnement Pédagogique assiste les étudiants sourds dans leur parcours académique, offrant une coordination de projet, une aide pédagogique, des prises de notes, et une interprétation des cours, avec un suivi approuvé par les pouvoirs subsidiants.',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
     }
 </script>
 <style scoped>
