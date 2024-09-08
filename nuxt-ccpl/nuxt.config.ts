@@ -46,6 +46,7 @@ export default defineNuxtConfig({
       { hid: 'twitter:image', property: 'twitter:image', content: 'https://centrecomprendreetparler.vercel.app/images/opengraph.png' }
       ],
       link: [
+        { rel: 'preload', href: '/images/banniere-du-centre-comprendre-et-parler-mobile.webp', as: 'image' },
         { rel: 'icon', href: '/img/logonew.2600a878.png' },
         { rel: 'stylesheet', href: 'https://unpkg.com/aos@2.3.1/dist/aos.css' },
         { rel: 'stylesheet', href: 'https://use.typekit.net/msf6xgq.css' },
