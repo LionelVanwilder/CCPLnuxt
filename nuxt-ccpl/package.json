@@ -12,6 +12,7 @@
     "start": "nuxt start"
   },
   "dependencies": {
+    "@nuxt/image": "^1.8.0",
     "@nuxtjs/i18n": "^8.5.2",
     "@supabase/supabase-js": "^2.45.3",
     "nuxt": "^3.13.0",

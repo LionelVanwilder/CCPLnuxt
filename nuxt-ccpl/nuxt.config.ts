@@ -29,6 +29,7 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
         { name: 'viewport', content: 'width=device-width,initial-scale=1' },
+        { name: 'robots', content: 'noindex, nofollow' },
         { hid: 'og:url', property: 'og:url', content: 'https://centrecomprendreetparler.vercel.app/' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:title', property: 'og:title', content: 'Accueil | CCP asbl' },
@@ -66,5 +67,5 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ['vue3-carousel-nuxt']
+  modules: ['vue3-carousel-nuxt', '@nuxt/image'], 
 })
