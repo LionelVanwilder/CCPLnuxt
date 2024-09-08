@@ -25,10 +25,12 @@ export default defineNuxtConfig({
         lang: 'fr'
       },
       title: 'Comprendre et Parler',
+      
       meta: [
         { charset: 'utf-8' },
         { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
         { name: 'viewport', content: 'width=device-width,initial-scale=1' },
+        
         { hid: 'og:url', property: 'og:url', content: 'https://centrecomprendreetparler.vercel.app/' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:title', property: 'og:title', content: 'Accueil | CCP asbl' },
@@ -44,6 +46,9 @@ export default defineNuxtConfig({
       { hid: 'twitter:image', property: 'twitter:image', content: 'https://centrecomprendreetparler.vercel.app/images/opengraph.png' }
       ],
       link: [
+        { rel: 'preload', href: '/images/banniere-du-centre-comprendre-et-parler.webp', as: 'image' },
+        { rel: 'preload', href: '/images/banniere-du-centre-comprendre-et-parler-tablet.webp', as: 'image' },
+        { rel: 'preload', href: '/images/banniere-du-centre-comprendre-et-parler-mobile.webp', as: 'image' },
         { rel: 'icon', href: '/img/logonew.2600a878.png' },
         { rel: 'stylesheet', href: 'https://unpkg.com/aos@2.3.1/dist/aos.css' },
         { rel: 'stylesheet', href: 'https://use.typekit.net/msf6xgq.css' },
