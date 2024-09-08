@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import { supabase } from '../../../supabaseClient.js';
+import { supabase } from '../../../supabaseClient';
 import { ref, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 
