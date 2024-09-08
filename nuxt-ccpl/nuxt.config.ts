@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:title', property: 'og:title', content: 'Accueil | CCP asbl' },
       { hid: 'og:description', property: 'og:description', content: 'Bienvenue sur le site du Centre Comprendre et Parler ASBL (CCP), une organisation dédiée à l\'accompagnement des enfants sourds et malentendants. Découvrez nos services, nos programmes de soutien et nos initiatives pour améliorer la qualité de vie de nos patients.' },
-      { hid: 'og:image', property: 'og:image', content: 'https://centrecomprendreetparler.vercel.app/public/images/opengraph.png' },
+      { hid: 'og:image', property: 'og:image', content: 'https://centrecomprendreetparler.vercel.app/images/opengraph.png' },
 
       // Twitter meta tags
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
@@ -37,7 +37,7 @@ export default defineNuxtConfig({
       { hid: 'twitter:url', property: 'twitter:url', content: 'https://centrecomprendreetparler.vercel.app/' },
       { hid: 'twitter:title', property: 'twitter:title', content: 'Accueil | CCP asbl' },
       { hid: 'twitter:description', property: 'twitter:description', content: 'Bienvenue sur le site du Centre Comprendre et Parler ASBL (CCP), une organisation dédiée à l\'accompagnement des enfants sourds et malentendants. Découvrez nos services, nos programmes de soutien et nos initiatives pour améliorer la qualité de vie de nos patients.' },
-      { hid: 'twitter:image', property: 'twitter:image', content: 'https://centrecomprendreetparler.vercel.app/public/images/opengraph.png' }
+      { hid: 'twitter:image', property: 'twitter:image', content: 'https://centrecomprendreetparler.vercel.app/images/opengraph.png' }
       ],
       link: [
         { rel: 'icon', href: '/img/logonew.2600a878.png' },
