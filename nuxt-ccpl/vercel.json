@@ -1,0 +1,13 @@
+{
+    "redirects": [
+      {
+        "source": "/(.*)",
+        "has": [
+          { "type": "status", "statusCode": 404 }
+        ],
+        "destination": "/",
+        "statusCode": 301
+      }
+    ]
+  }
+  
