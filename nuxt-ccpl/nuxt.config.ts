@@ -7,7 +7,6 @@ export default defineNuxtConfig({
   plugins: [
     './plugins/i18n.ts' // Assurez-vous que le chemin est correct
   ],
-  ssr: true,
 
   // Configuration pour la génération statique
   app: {
