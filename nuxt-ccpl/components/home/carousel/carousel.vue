@@ -42,7 +42,7 @@
   import progrImage from '../../../public/images/programmes.webp'
   import compImage from '../../../public/images/competences.webp'
   import collabImage from '../../../public/images/collaborations.webp'
-  import docImage from '../../../public/images/documentation.avif'
+  import docImage from '../../../public/images/documentation.webp'
   
   export default {
     name: 'CarouselApp',
