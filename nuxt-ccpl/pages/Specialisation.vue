@@ -2,7 +2,19 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
+       
+        <h1>Spécialisation primaire maternelle et secondaire</h1>
         <h2>{{ $t('program.specialization.title') }}</h2>
+        <div class="skills-img-grid">
+            <div class="skills-img-container">
+                <NuxtImg src="/images/specialisation.webp" accesskey="" alt="Soutenir le Centre Comprendre et Parler" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="800" height="531,2289"/>
+            </div>
+            <div class="skills-img-container">
+                <NuxtImg src="/images/specialisation-primaire.webp" accesskey="" alt="Soutenir le Centre Comprendre et Parler" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="800" height="531,2289"/>
+            </div>
+        </div>
+        
+        
         <h3>{{ $t('program.specialization.kindertitle') }}</h3>
         <span>{{ $t('program.specialization.subtitle') }}</span>
         <p>
@@ -80,6 +92,9 @@ export default{
     }
 </script>
 <style scoped>
+h1{
+    display: none;
+}
     .Edu-container{
         margin: 0 6rem;
         padding: 1rem;
@@ -95,6 +110,10 @@ export default{
         color: #222222;
         font-weight: 500;
         letter-spacing: 1.1px;
+    }
+
+    h2{
+        margin-bottom: 2rem;
     }
 
     p{
@@ -150,6 +169,7 @@ export default{
 
     .Edu-container h3{
         font-size: 1.2rem;
+        margin-top: 2rem;
     }
 }
 
