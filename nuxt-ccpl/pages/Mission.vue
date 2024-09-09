@@ -27,7 +27,6 @@
                  <li>{{ $t('mission.valueslist3') }}</li>
                  <li>{{ $t('mission.valueslist4') }}</li>
                  <li>{{ $t('mission.valueslist5') }}</li>
-                 <li>{{ $t('mission.valueslist6') }}</li>
                  <li>{{ $t('mission.valueslist7') }}</li>
                  <li>{{ $t('mission.valueslist8') }}</li>
              </ol>
@@ -116,5 +115,11 @@
      .values li:before{
          content: url('../public/images/heart-solid.svg');
          margin-right: 1rem;
+     }
+
+     @media all and (max-width: 500px){
+        ol{
+            width: 100%;
+        }
      }
  </style>

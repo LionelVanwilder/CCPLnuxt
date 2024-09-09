@@ -46,9 +46,15 @@
     color: #005387;
 }
 
+.langnavinfo li button:hover{
+    color: #005387 !important;
+    text-decoration: underline 3px #DC0073;
+    transition: .1s;
+}
+
 .activelang{
-    color: #A90F4A !important;
-    text-decoration: underline;
+    color: #005387 !important;
+    text-decoration: underline 3px #DC0073;
     font-weight: 500;
     border-radius: 2px;
     border-radius: 5px !important;

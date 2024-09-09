@@ -3,7 +3,7 @@
         <img src="../../public/images/DonationNEW.svg" class="icon-bloc-flex" alt="Don">
         <div class="donation-row">
             <div class="donation-image-wrapper">
-                <img src="../../public/images/Soutenir-le-centre-comprendre-et-parler.webp" accesskey="" alt="Soutenir le Centre Comprendre et Parler">
+                <NuxtImg src="/images/Soutenir-le-centre-comprendre-et-parler.webp" accesskey="" alt="Soutenir le Centre Comprendre et Parler" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="900" height="604,157"/>
             </div>
             <div class="donation-content-wrapper">
                 
