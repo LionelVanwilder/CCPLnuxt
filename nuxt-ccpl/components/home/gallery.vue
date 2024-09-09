@@ -1,13 +1,15 @@
 <template>
     <div class="gallery-container">
-        <div class="gallery-grid"  >
+        <div class="gallery-grid">
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
                 <img src="../../public/images/gallery1.webp" alt="enfants" loading="lazy">
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
+                <p>CCP asbl</p>
                 <img src="../../public/images/batiment-centre-comprendre-et-parler.webp" alt="Batiment du centre comprendre et parler" loading="lazy">
+                
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
@@ -16,6 +18,7 @@
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
                 <img src="../../public/images/Dr-Olivier-Perier.webp" alt="Dr Olivier Périer" loading="lazy">
+                <p>Dr Olivier Périer</p>
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
@@ -24,6 +27,7 @@
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
                 <img src="../../public/images/equipe-du-centre-comprendre-et-parler.webp" alt="equipe du Centre Comprendre et parler" loading="lazy">
+                <p>Notre équipe</p>
             </div>
             
         </div>
@@ -44,16 +48,31 @@ export default{
     flex-direction: column
 }
 
+p{
+    color: #ffffff;
+    background-color: #005387;
+    padding: 0.2rem 0.5rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-size: 0.9rem;
+    position: absolute;
+    left: 0.5rem;
+    bottom: -1rem;
+}
+
+
+
 .gallery-grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width: 70%;
-    grid-gap: 2rem;
+    grid-gap: 2rem 2rem;
 }
 
 .image-gallery-container{
     width: 100%;
-    overflow: hidden;
+    position: relative;
+    
 }
 
 .image-gallery-container img{
@@ -63,9 +82,7 @@ export default{
     transition: 0.3s;
 }
 
-.image-gallery-container:hover img{
-    transform: scale(1.2);
-}
+
 
 h2{
     font-size: 2.5rem;
@@ -81,7 +98,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 70%;
-    grid-gap: 1rem;
+    grid-gap: 2rem 1rem;
 }
 }
 
@@ -90,7 +107,11 @@ h2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 75%;
-    grid-gap: 1rem;
+    grid-gap: 2rem 1rem;
+}
+
+p{
+    font-size: 0.8rem;
 }
 }
 
@@ -99,7 +120,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 85%;
-    grid-gap: 0.8rem;
+    grid-gap: 2rem 0.8rem;
 }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="Edu-container">
-        <h1></h1>
+        <h1>Voici les horaires du ccp asbl et nos infos de contact</h1>
         <h2>{{ $t("Navinfo.infos") }}</h2>
         <div class="info-container">
             <h3>{{ $t("Contact.schedule") }}</h3>
@@ -81,8 +81,17 @@
     p{
         margin: .5rem 0 !important;
     }
+
+    h1{
+        display: none;
+    }
     h2{
         color: #222222;
+        font-weight: 400;
+    }
+
+    h3{
+        color: #005387;
     }
     
     .hours-container{
