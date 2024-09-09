@@ -1,5 +1,5 @@
 .home-banner{
-    background-image: url('../../public/images/banniere-du-centre-comprendre-et-parler.webp');
+    background-image: url('../../public/images/banniere-du-centre-comprendre-et-parler.avif');
     min-height: 75vh;
     background-position: center;
     background-size: cover;
@@ -73,7 +73,7 @@
     }
     .home-banner{
         min-height: 40vh;
-        background-image: url('../../public/images/banniere-du-centre-comprendre-et-parler-tablet.webp');
+        background-image: url('../../public/images/banniere-du-centre-comprendre-et-parler-tablet.avif');
     }
 }
 
