@@ -3,27 +3,27 @@
         <div class="gallery-grid"  >
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
-                <img src="../../public/images/gallery1.webp" alt="enfants">
+                <img src="../../public/images/gallery1.webp" alt="enfants" loading="lazy">
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
-                <img src="../../public/images/batiment-centre-comprendre-et-parler.webp" alt="Batiment du centre comprendre et parler">
+                <img src="../../public/images/batiment-centre-comprendre-et-parler.webp" alt="Batiment du centre comprendre et parler" loading="lazy">
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
-                <img src="../../public/images/gallery3.webp" alt="enfant qui joue">
+                <img src="../../public/images/gallery3.webp" alt="enfant qui joue" loading="lazy">
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
-                <img src="../../public/images/Dr-Olivier-Perier.webp" alt="Dr Olivier Périer">
+                <img src="../../public/images/Dr-Olivier-Perier.webp" alt="Dr Olivier Périer" loading="lazy">
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
-                <img src="../../public/images/gallery5.webp" alt="dessin enfant">
+                <img src="../../public/images/gallery5.webp" alt="dessin enfant" loading="lazy">
             </div>
             <div class="image-gallery-container" data-aos="fade-up"
             data-aos-duration="1000">
-                <img src="../../public/images/equipe-du-centre-comprendre-et-parler.webp" alt="equipe du Centre Comprendre et parler">
+                <img src="../../public/images/equipe-du-centre-comprendre-et-parler.webp" alt="equipe du Centre Comprendre et parler" loading="lazy">
             </div>
             
         </div>
