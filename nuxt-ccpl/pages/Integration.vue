@@ -2,6 +2,9 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
         <div class="Edu-container">
+            <div class="skills-img-container">
+                <NuxtImg src="/images/reeducation.webp" accesskey="" alt="enfant qui apprends à marcher" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="1300" height="350"/>
+            </div>
         <h2>{{ $t("program.integration.title") }}</h2>
         <span>{{ $t("program.integration.subtitle") }}</span>
         <p>{{ $t("program.integration.text1") }}</p>

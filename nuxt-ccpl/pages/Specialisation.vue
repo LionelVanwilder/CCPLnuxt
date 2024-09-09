@@ -2,17 +2,14 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-       
+        
+            <div class="skills-img-container">
+                <NuxtImg src="/images/specialisation.webp" accesskey="" alt="crayons de couleurs" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="1300" height="350"/>
+            </div>
+        
         <h1>Spécialisation primaire maternelle et secondaire</h1>
         <h2>{{ $t('program.specialization.title') }}</h2>
-        <div class="skills-img-grid">
-            <div class="skills-img-container">
-                <NuxtImg src="/images/specialisation.webp" accesskey="" alt="Soutenir le Centre Comprendre et Parler" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="800" height="531,2289"/>
-            </div>
-            <div class="skills-img-container">
-                <NuxtImg src="/images/specialisation-primaire.webp" accesskey="" alt="Soutenir le Centre Comprendre et Parler" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="800" height="531,2289"/>
-            </div>
-        </div>
+        
         
         
         <h3>{{ $t('program.specialization.kindertitle') }}</h3>
@@ -112,9 +109,7 @@ h1{
         letter-spacing: 1.1px;
     }
 
-    h2{
-        margin-bottom: 2rem;
-    }
+    
 
     p{
     margin: 2rem 0;

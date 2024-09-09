@@ -2,6 +2,10 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
+        <div class="skills-img-container">
+                <NuxtImg src="/images/audiologie.webp" accesskey="" alt="son audiologie" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="1300" height="350"/>
+            </div>
+            <h1>Service audiologie</h1>
         <h2>{{ $t("skills.audio.title") }}</h2>
         <p>{{ $t("skills.audio.text1") }}</p>
         <p>{{ $t("skills.audio.text2") }}</p>
@@ -52,6 +56,9 @@ export default{
     }
 </script>
 <style scoped>
+h1{
+    display: none;
+}
     .Edu-container{
         margin: 0 6rem;
         padding: 1rem;

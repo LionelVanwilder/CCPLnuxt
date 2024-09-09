@@ -2,6 +2,10 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
+        <div class="skills-img-container">
+                <NuxtImg src="/images/depistage.webp" accesskey="" alt="dépistage de la surdité" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="1300" height="350"/>
+            </div>
+            <h1>Surdité</h1>
         <h2>{{ $t("program.screening.title") }}</h2>
         <p>{{ $t("program.screening.text1") }}</p>
         <p>{{ $t("program.screening.text2") }}</p>
@@ -47,6 +51,10 @@
     }
 </script>
 <style scoped>
+
+h1{
+    display: none;
+}
 
 .Edu-container{
         margin: 0 6rem;

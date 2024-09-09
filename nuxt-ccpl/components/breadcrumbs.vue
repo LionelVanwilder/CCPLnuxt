@@ -80,20 +80,14 @@
         }
 
         .breadcrumb-container{
-          margin: 4rem 1.5rem;
+          
           padding: 1rem;
         }
 
         
     }
 
-@media all and (max-width: 400px){
-      .breadcrumb-container{
-        margin: 4rem 1rem;
-      }
 
-      
-    }
 
 
 

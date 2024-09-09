@@ -10,17 +10,13 @@
     letter-spacing: 1.2px;
     font-weight: 600;
     color: #005387;
+    font-weight: 400;
 }
 
-.skills-img-grid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    width: 80%;
-    grid-gap: 2rem;
-}
 
 .skills-img-container{
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 .skills-img-container img{
@@ -29,10 +25,15 @@
     object-fit: cover;
 }
 
+.Edu-container h2{
+    font-weight: 400 !important;
+}
+
+
 
 .Pages-container-content h3{
     font-size: 1.5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     font-weight: 600;
     color: #222222;
 }

@@ -2,6 +2,10 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
+        <div class="skills-img-container">
+                <NuxtImg src="/images/logopedie.webp" accesskey="" alt="enfants qui joue" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="1300" height="350"/>
+            </div>
+            <h1>Service logopedie</h1>
         <h2>{{ $t('skills.logo.title') }}</h2>
         <p v-html="$t('skills.logo.content1')"></p>
         <p>
@@ -54,6 +58,9 @@ export default{
     }
 </script>
 <style scoped>
+h1{
+    display: none;
+}
     .Edu-container{
         margin: 0 6rem;
         padding: 1rem;
