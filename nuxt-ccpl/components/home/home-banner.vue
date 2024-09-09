@@ -1,11 +1,11 @@
 <template>
     <div id="homebanner-container">
-        <img src="../../public/images/banniere-du-centre-comprendre-et-parler.avif" 
-             srcset="../../public/images/banniere-du-centre-comprendre-et-parler.avif 1x, 
-                     ../../public/images/banniere-du-centre-comprendre-et-parler-tablet.avif 2x"
+        <NuxtImg src="/images/banniere-du-centre-comprendre-et-parler.avif" 
+             srcset="/images/banniere-du-centre-comprendre-et-parler.avif 1x, 
+                     /images/banniere-du-centre-comprendre-et-parler-tablet.avif 2x"
              sizes="(max-width: 769px) 100vw, 100vw"
              alt="bannière du Centre Comprendre et Parler"
-             loading="lazy">
+             loading="lazy"/>
         <h1 class="fade-appear">
         <span class="special-font">{{ $t("banner.centre") }}</span>
         <br>

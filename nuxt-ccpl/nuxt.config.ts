@@ -14,6 +14,7 @@ export default defineNuxtConfig({
   {transpile: ['vue3-carousel'],
     
   },
+  buildModules: ['@nuxt/image'],
 
  
 
