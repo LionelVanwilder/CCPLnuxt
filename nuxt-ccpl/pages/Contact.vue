@@ -1,5 +1,6 @@
 <template>
     <div class="Edu-container">
+        <h1></h1>
         <h2>{{ $t("Navinfo.infos") }}</h2>
         <div class="info-container">
             <h3>{{ $t("Contact.schedule") }}</h3>

@@ -23,6 +23,23 @@
 export default{
         name: 'LegalPage',
 
+        setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Mentions légales | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'Mentions légales du Centre Comprendre et Parler',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
+
         
 
        

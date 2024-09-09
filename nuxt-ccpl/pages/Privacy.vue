@@ -27,6 +27,23 @@
 export default{
         name: 'PrivacyPage',
 
+        setup() {
+    // Définir les métadonnées de la page
+    useHead({
+      title: 'Politique de confidentialité | CCP asbl',
+      meta: [
+        {
+          name: 'description',
+          content: 'politique de confidentialité du Centre Comprendre et Parler',
+        },
+        {
+          name: 'keywords',
+          content: 'Centre Comprendre et Parler, ASBL, CCP, enfants, Centre, sourds, patients',
+        }
+      ]
+    })
+  }
+
         
 
        
