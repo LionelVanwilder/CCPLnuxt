@@ -1,15 +1,4 @@
-.home-banner{
-    background-image: url('../../public/images/banniere-du-centre-comprendre-et-parler.avif');
-    min-height: 75vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 3rem;
-}
+
 
 #homebanner-container{
     position: relative;
@@ -56,7 +45,7 @@
     font-weight: 400;
 }
 
-/*@keyframes fade-appear{
+@keyframes fade-appear{
     0%{
             opacity: 0;
             transform: translateY(50px);
@@ -65,7 +54,7 @@
             opacity: 1;
             transform: translateY(0);
          }
-}*/
+}
 
 @media all and (max-width: 769px){
     .home-banner h1{

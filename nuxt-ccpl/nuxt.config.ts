@@ -46,8 +46,8 @@ export default defineNuxtConfig({
       { hid: 'twitter:image', property: 'twitter:image', content: 'https://centrecomprendreetparler.vercel.app/images/opengraph.png' }
       ],
       link: [
-        { rel: 'preload', href: '/images/banniere-du-centre-comprendre-et-parler-mobile.webp', as: 'image' },
-        { rel: 'preload', href: '/images/banniere-du-centre-comprendre-et-parler.webp', as: 'image' },
+        { rel: 'preload', href: '/images/banniere-du-centre-comprendre-et-parler-mobile.avif', as: 'image' },
+        { rel: 'preload', href: '/images/banniere-du-centre-comprendre-et-parler.avif', as: 'image' },
         { rel: 'icon', href: '/images/icone.svg' },
         { rel: 'preload', href: 'https://unpkg.com/aos@2.3.1/dist/aos.css', as: 'style', onload:"this.rel='stylesheet'" },
         { rel: 'stylesheet', href: 'https://unpkg.com/aos@2.3.1/dist/aos.css', media: 'print', onload: "this.media='all'"},
