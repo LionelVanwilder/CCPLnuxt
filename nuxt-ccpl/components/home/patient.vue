@@ -1,7 +1,7 @@
 <template>
     <div class="image-text-row patient-section" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
         <div class="image-wrapper">
-            <img src="../../public/images/patient2.webp" alt="Patient enfant">
+            <NuxtImg src="/images/patient2.webp" alt="Patient enfant" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width="1000" height="708"/>
         </div>
         <div class="content-wrapper">
             <div class="content-wrapper-content patient-content"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">

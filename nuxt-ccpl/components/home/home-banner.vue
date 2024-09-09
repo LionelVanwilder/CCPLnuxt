@@ -4,8 +4,7 @@
              srcset="/images/banniere-du-centre-comprendre-et-parler.avif 1x, 
                      /images/banniere-du-centre-comprendre-et-parler-tablet.avif 2x"
              sizes="(max-width: 769px) 100vw, 100vw"
-             alt="bannière du Centre Comprendre et Parler"
-             loading="lazy"/>
+             alt="bannière du Centre Comprendre et Parler"/>
         <h1 class="fade-appear">
         <span class="special-font">{{ $t("banner.centre") }}</span>
         <br>
