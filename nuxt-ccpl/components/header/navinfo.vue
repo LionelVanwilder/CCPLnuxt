@@ -23,7 +23,7 @@
                     <li><button :class="{ 'activelang': $i18n.locale === 'fr' }" @click="$i18n.locale = 'fr'">FR</button></li>
                     <li><button :class="{ 'activelang': $i18n.locale === 'nl' }" @click="$i18n.locale = 'nl'">NL</button></li>
                     <li><button  :class="{ 'activelang': $i18n.locale === 'en' }" @click="$i18n.locale = 'en'">EN</button></li>
-                    <li><button>LDS</button></li>
+                    <li><button>Lsfb</button></li>
                     <!--<a href="#" id="signbtn"><img src="../../../../icons/hands-asl-interpreting-solid.svg"></a>-->
                 </ul>
     </nav>
