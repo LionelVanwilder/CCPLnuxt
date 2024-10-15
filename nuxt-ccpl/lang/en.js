@@ -439,12 +439,15 @@ export default{
     
 
     AboutPage:{
-        title: 'The Center',
-        content1: 'The Center "Comprendre et Parler" is a non-profit organization founded in 1965 by Dr. Olivier Périer and parents of deaf or hard of hearing children, eager to provide their children with a high-level education. <br>Its status is that of a "Functional Rehabilitation Center", "Educational Support Service", "Specialized Orientation Center".',
-        content2: 'The Centre currently welcomes no less than 600 children of all ages and from all socio-economic or cultural backgrounds. <br>A motivated team of 110 people with multidisciplinary skills provides support to the children and their families.',
-        subtitle1: 'Our team',
-        content3: 'Our team of professionals, including doctors, audiologists, speech therapists, psychologists, psychomotor therapists, social workers, activity leaders, and sign language interpreters, works closely with the families. <br><br>Together, we create individualized programs to foster the development of language and communication, well-being, and the autonomy of each child.'
-    },
+        title: 'Welcome to the Center',
+        content1: 'Founded in 1965, our center is a non-profit organization specializing in the functional rehabilitation of deaf or hard-of-hearing children. We welcome children of all ages and backgrounds, offering high-quality therapeutic support. Our center is subsidized by Iriscare and recognized by COCOM, PHARE, and AVIQ.',
+        subtitle1: 'A Dedicated Multidisciplinary Team',
+        content3: 'Our team of professionals, including doctors, audiologists, speech therapists, psychologists, psychomotor therapists, social workers, animators, and sign language interpreters, works closely with families. Together, we create individualized programs to promote the development of language and communication, the well-being, and the autonomy of each child.',
+        subtitle2: 'Comprehensive Care for Optimal Development',
+        content4: 'We offer a wide range of services, including: fitting and monitoring of hearing aids, speech and neuropsychological rehabilitation, psychological and social support, and family guidance.',
+        content5: 'Discover our center and our unique approach. Together, we build an autonomous and inclusive future for every deaf or hard-of-hearing child.'
+    }
+    ,
 
     Education:{
         title: 'Early education',

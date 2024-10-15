@@ -428,11 +428,13 @@ export default{
 
     
     AboutPage:{
-        title: 'Le Centre',
-        content1: 'Le Centre Comprendre et Parler est une ASBL fondée en 1965 par le Docteur Olivier Périer et des parents d\'enfants sourds ou malentendants soucieux d\'offrir à leurs enfants une éducation de haut niveau. <br>Son statut est celui de “Centre de Réadaptation Fonctionnelle”, "Service d’Accompagnement Pédagogique", "Centre d’Orientation Spécialisé".',
-        content2: 'Le Centre accueille actuellement pas moins de 600 enfants de tous âges et de tous milieux socio-économiques ou culturels. <br>Une équipe motivée de 110 personnes aux compétences multidisciplinaires assure l\'accompagnement des enfants et de leurs familles.',
-        subtitle1: 'Notre équipe',
-        content3: 'Notre équipe de professionnels, composée notamment de médecins, audiologistes, logopèdes, psychologues, psychomotriciens, assistants sociaux, animateurs et interprètes en langue des signes, travaille en étroite collaboration avec les familles. <br><br>Ensemble, nous mettons en place des programmes individualisés pour favoriser le développement du langage et de la communication, l’épanouissement et l\'autonomie de chaque enfant.'
+        title: 'Bienvenue au Centre',
+        content1: 'Fondé en 1965, notre centre est une ASBL spécialisée dans la réadaptation fonctionnelle des enfants sourds ou malentendants. Nous accueillons des enfants de tous âges et horizons, offrant un soutien thérapeutique de haute qualité. Notre centre est subsidié par Iriscare et agréé par la COCOM, le PHARE et l’AVIQ.',
+        subtitle1: 'Une Équipe Multidisciplinaire Dévouée',
+        content3: 'Notre équipe de professionnels, composée notamment de médecins, audiologistes, logopèdes, psychologues, psychomotriciens, assistants sociaux, animateurs et interprètes en langue des signes, travaille en étroite collaboration avec les familles. Ensemble, nous mettons en place des programmes individualisés pour favoriser le développement du langage et de la communication, l’épanouissement et l\'autonomie de chaque enfant.',
+        subtitle2: 'Une Prise en Charge Complète pour un Développement Optimal',
+        content4: 'Nous offrons un large éventail de services, incluant : mise en place et suivi audio-prothétique, Rééducation logopédique et neuropsychologique, Accompagnement psychologique et social, Encadrement des familles',
+        content5:'Découvrez notre centre et notre approche unique. Ensemble, construisons un avenir autonome et inclusif pour chaque enfant sourd ou malentendant.'
     },
 
     Education:{

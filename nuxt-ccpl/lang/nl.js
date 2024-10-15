@@ -434,13 +434,15 @@ export default{
     
 
     AboutPage:{
-        title: 'Het Centrum',
-        content1: 'Het Centrum "Comprendre et Parler" is een vzw opgericht in 1965 door dokter Olivier Périer en ouders van dove of slechthorende kinderen die hun kinderen een hoogstaand onderwijs wilden bieden. <br>De organisatie heeft de status van "Revalidatiecentrum", "Onderwijsondersteuningsdienst", "Gespecialiseerd Oriëntatiecentrum".',
-        content2: 'Het Centrum verwelkomt momenteel niet minder dan 600 kinderen van alle leeftijden en uit alle socio-economische of culturele achtergronden. <br>Een gemotiveerd team van 110 personen met multidisciplinaire vaardigheden zorgt voor de begeleiding van de kinderen en hun families.',
-        subtitle1: 'Onze team',
-        content3: 'Ons team van professionals, waaronder artsen, audiologen, logopedisten, psychologen, psychomotorische therapeuten, maatschappelijk werkers, animatoren en gebarentolken, werkt nauw samen met de families. <br><br>Samen stellen we geïndividualiseerde programma\'s op om de taal- en communicatieve ontwikkeling, het welzijn en de autonomie van elk kind te bevorderen.'
-
-    },
+        title: 'Welkom bij het Centrum',
+        content1: 'Opgericht in 1965, is ons centrum een vzw gespecialiseerd in de functionele revalidatie van dove of slechthorende kinderen. Wij verwelkomen kinderen van alle leeftijden en achtergronden, en bieden hoogwaardige therapeutische ondersteuning. Ons centrum wordt gesubsidieerd door Iriscare en erkend door de COCOM, het PHARE en de AVIQ.',
+        subtitle1: 'Een Toegewijd Multidisciplinair Team',
+        content3: 'Ons team van professionals, waaronder artsen, audiologen, logopedisten, psychologen, psychomotorische therapeuten, maatschappelijk werkers, animatoren en gebarentaaltolken, werkt nauw samen met de gezinnen. Samen stellen we geïndividualiseerde programma\'s op om de ontwikkeling van taal en communicatie, het welzijn en de zelfstandigheid van elk kind te bevorderen.',
+        subtitle2: 'Een Volledige Begeleiding voor een Optimale Ontwikkeling',
+        content4: 'We bieden een breed scala aan diensten, waaronder: het plaatsen en opvolgen van gehoorapparaten, logopedische en neuropsychologische revalidatie, psychologische en sociale begeleiding, ondersteuning van gezinnen.',
+        content5: 'Ontdek ons centrum en onze unieke aanpak. Samen bouwen we aan een zelfstandige en inclusieve toekomst voor elk doof of slechthorend kind.'
+    }
+    ,
 
     Education:{
         title: 'Vroegtijdige educatie',

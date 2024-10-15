@@ -8,11 +8,12 @@
             <h1>Le CCP asbl</h1>
         <h2>{{$t('AboutPage.title')}} "Comprendre et Parler"</h2>
         <p v-html="$t('AboutPage.content1')"></p>
-        <p v-html="$t('AboutPage.content2')"></p>
         <div class="pages-paragraph">
             <h3>{{ $t('AboutPage.subtitle1') }}</h3>
             <p v-html="$t('AboutPage.content3')"></p>
-        
+            <h3>{{ $t('AboutPage.subtitle2') }}</h3>
+            <p v-html="$t('AboutPage.content4')"></p>
+            <p v-html="$t('AboutPage.content5')"></p>
         </div>
 
             
