@@ -7,25 +7,20 @@
             data-aos="fade-up"
             data-aos-anchor="#aosanchor"
             data-aos-duration="1000">
-                <!--<div class="news-image-container">
-                    
-                    <img :src="getImagePath(card.image)" alt="News Image">
-
-                </div>-->
+                
+                <!-- Conteneur de l'image de l'actualité -->
+                <div class="news-image-container" v-if="card.image">
+                    <img :src="card.image" alt="Image actualité" class="news-image">
+                </div>
                 
                 <p class="news-date">{{ formatDate(card.date) }}</p>
                 <h3>{{ getTitle(card) }}</h3>
-                <!--<p id="aosanchor" class="news-content">
-                    {{ item.content }}
-                </p>-->
+                
                 <router-link :to="`/${card.id}`">→ {{ $t('news.button') }}</router-link>
-
-
             </article>
         </div>
     </div>
 </template>
-
 <script>
 import { supabase } from '../../../supabaseClient';
 import { ref, onMounted } from 'vue';
@@ -39,10 +34,10 @@ export default {
 
         const getNews = async () => {
             try {
-        
+                // Récupération des actualités avec l'URL de l'image
                 const { data, error } = await supabase
                     .from('news')
-                    .select('*') 
+                    .select('id, title, date, image') // Assurez-vous d'inclure 'image_url'
                     .order('date', { ascending: false });
 
                 if (error) {
@@ -70,10 +65,9 @@ export default {
 
         const getTitle = (card) => {
             const currentLang = locale.value;
-            // Utiliser une logique pour obtenir le titre en fonction de la langue
             switch (currentLang) {
                 case 'en':
-                    return card.title_en || card.title; // Fallback au français si nécessaire
+                    return card.title_en || card.title;
                 case 'nl':
                     return card.title_nl || card.title;
                 default:
