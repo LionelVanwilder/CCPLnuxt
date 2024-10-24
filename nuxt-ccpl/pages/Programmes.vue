@@ -5,9 +5,9 @@
           <li><NuxtLink to="/Education">{{ $t("navbar.dropdown.program.education") }}</NuxtLink></li>
           <li><NuxtLink to="/Specialisation">{{ $t("navbar.dropdown.program.spec") }}</NuxtLink></li>
           <li><NuxtLink to="/Integration">{{ $t("navbar.dropdown.program.integration") }}</NuxtLink></li>
-          <li><NuxtLink to="/Services">{{ $t("navbar.dropdown.program.services") }}</NuxtLink></li>
+          <!--<li><NuxtLink to="/Services">{{ $t("navbar.dropdown.program.services") }}</NuxtLink></li>-->
           <li><NuxtLink to="/Formations">{{ $t("navbar.dropdown.program.formations") }}</NuxtLink></li>
-          <li><NuxtLink to="/Depistage">{{ $t("navbar.dropdown.program.screening") }}</NuxtLink></li>
+          <!--<li><NuxtLink to="/Depistage">{{ $t("navbar.dropdown.program.screening") }}</NuxtLink></li>-->
         </ul>
       </div>
       <div class="programmes-text">

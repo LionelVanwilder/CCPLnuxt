@@ -5,9 +5,9 @@
         <li><router-link to="/Specialisation" @click="selectItemAndCloseBurger('Spécialisation')">{{ this.$t('navbar.dropdown.program.spec') }}</router-link></li>
         <li><router-link to="/Integration" @click="selectItemAndCloseBurger('Intégration')">{{ this.$t('navbar.dropdown.program.integration') }}</router-link></li>
        <!-- <li><router-link to="/Programmes/ImplantsCochleaires" @click="selectItemAndCloseBurger('Implantscochléaire')">{{ this.$t('navbar.dropdown.program.implants') }}</router-link></li>-->
-        <li><router-link to="/Services" @click="selectItemAndCloseBurger('Services')">{{ this.$t('navbar.dropdown.program.services') }}</router-link></li>
+        <!--<li><router-link to="/Services" @click="selectItemAndCloseBurger('Services')">{{ this.$t('navbar.dropdown.program.services') }}</router-link></li>-->
         <li><router-link to="/Formations" @click="selectItemAndCloseBurger('Formationsextérieures')">{{ this.$t('navbar.dropdown.program.formations') }}</router-link></li>
-        <li><router-link to="/Depistage" @click="selectItemAndCloseBurger('Dépistagedelasurdité')">{{ this.$t('navbar.dropdown.program.screening') }}</router-link></li>
+        <!--<li><router-link to="/Depistage" @click="selectItemAndCloseBurger('Dépistagedelasurdité')">{{ this.$t('navbar.dropdown.program.screening') }}</router-link></li>-->
         <!--<li><router-link to="/Programmes/ServicesExterieurs" @click="selectItemAndCloseBurger('Servicesextérieurs')">{{ this.$t('navbar.dropdown.program.external') }}</router-link></li>-->
     </ul>
 </template>

@@ -29,9 +29,9 @@
                         {label: this.$t('navbar.dropdown.program.sup'), url: '/Programmes/Specialisation'},*/
                         {label: this.$t('navbar.dropdown.program.integration'), url: '/Integration'},
                         /*{label: this.$t('navbar.dropdown.program.implants'), url: '/Programmes/ImplantsCochleaires'},*/
-                        {label: this.$t('navbar.dropdown.program.services'), url: '/Services'},
+                        /*{label: this.$t('navbar.dropdown.program.services'), url: '/Services'},*/
                         {label: this.$t('navbar.dropdown.program.formations'), url: '/Formations'},
-                        {label: this.$t('navbar.dropdown.program.screening'), url: '/Depistage'},
+                        /*{label: this.$t('navbar.dropdown.program.screening'), url: '/Depistage'},*/
                     ] 
                 },
 
