@@ -3,7 +3,7 @@
         <h2>{{ $t("Aboutus.title") }}</h2>
         <p>{{ $t("Aboutus.intro") }}</p>
         <Router-link to="/Quisommesnous" data-aos="fade-up" data-aos-duration="1000">{{ $t("Aboutus.button") }}</Router-link>
-       <video controls autoplay muted width="70%">
+       <video controls width="70%" poster="../../public/images/poster.png">
         <source src="../../public/videos/50ans.mp4">
        </video>
         
