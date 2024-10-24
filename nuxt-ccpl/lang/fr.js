@@ -15,6 +15,8 @@ export default{
 
     Contact: {
         schedule: 'Horaires du centre',
+        scolar: 'Pendant l\'année scolaire',
+        holidays: 'Durant les vacances scolaires',
         Mon: 'Lundi',
         tue: 'Mardi',
         wed: 'Mercredi',
@@ -22,7 +24,8 @@ export default{
         fri: 'Vendredi',
         sat: 'Samedi',
         sun: 'Dimanche',
-        open: '08:30 - 17:00',
+        open: '08:00 - 18:00',
+        openhol: '08:30 - 16:30',
         close: 'Fermé',
         route: 'Comment se rendre au centre?',
         metro: '7 minutes à pied de l\'arret Alma',
@@ -189,7 +192,7 @@ export default{
 
         gridleft: {
             title: 'Vous pouvez choisir une domiciliation<br> ou un don par <span style="color: #005387; font-weight: 700;">virement bancaire </span>',
-            info: 'Comprendre et Parler ASBL<br>Rue de la Rive, 101<br>1200 Bruxelles<br>IBAN : BE22 2100 4361 0747<br>BIC : GEBABEBB',
+            info: 'Comprendre et Parler ASBL<br>Rue de la Rive, 101<br>1200 Bruxelles<br>IBAN : BE22 2100 4361 0747<br>BIC : GEBABEBB<br>Communication: Dons + n° de registre national',
             text: 'En cliquant sur <span><router-link to="/Competences" style="color: #005387;text-decoration: underline;font-weight: 600 !important;transition: .3s ease-in-out;cursor: pointer;">ce lien</router-link></span>, vous trouverez un virement bancaire à télécharger.<br> Merci de le compléter et de le transmettre à votre banque.'
         },
 

@@ -12,6 +12,8 @@ export default{
 
     Contact: {
         schedule: 'Openingstijden',
+        scolar: 'Tijdens het schooljaar',
+        holidays: 'Tijdens de schoolvakanties',
         Mon: 'Maandag',
         tue: 'Dinsdag',
         wed: 'Woensdag',
@@ -19,7 +21,7 @@ export default{
         fri: 'Vrijdag',
         sat: 'Zaterdag',
         sun: 'Zondag',
-        open: '08:30 - 17:00',
+        open: '08:00 - 18:00',
         close: 'Gesloten',
         route: 'Hoe kom je bij ons?',
         metro: '7 minuten van de metro Alma',
@@ -185,7 +187,7 @@ export default{
 
         gridleft: {
             title: 'U kunt een domiciliëringskies kiezen of donatie via <span style="color: #005387; font-weight: 700;">overschrijving</span>',
-            info: 'Comprendre et Parler VZW<br>Oeverstraat 101<br> 1200 Brussel<br>IBAN : BE22 2100 4361 0747<br>BIC : GEBABEBB',
+            info: 'Comprendre et Parler VZW<br>Oeverstraat 101<br> 1200 Brussel<br>IBAN : BE22 2100 4361 0747<br>BIC : GEBABEBB<br>Mededeling: Schenkingen + rijksregisternummer',
             text: 'Door te klikken op <span><router-link to="/Competences" style="color: #005387;text-decoration: underline;font-weight: 600 !important;transition: .3s ease-in-out;cursor: pointer;">deze link</router-link></span>, u zult een bankoverschrijving vinden om te downloaden. <br> Gelieve in te vullen en door te sturen naar uw bank.'
         },
 

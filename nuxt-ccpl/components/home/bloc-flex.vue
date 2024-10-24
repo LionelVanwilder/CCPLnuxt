@@ -44,7 +44,7 @@
             content: this.$t('blocflex.gestionintro'),
             url: '/OrganesdeGestion',
           },
-          {
+          /*{
             source: '/images/hierarchynew.svg',
             title: this.$t('blocflex.cards.organ'),
             content: this.$t('blocflex.organintro'),
@@ -55,7 +55,7 @@
             title: this.$t('blocflex.cards.activity'),
             content: this.$t('blocflex.activityintro'),
             url: '/RapportdActivites',
-          },
+          },*/
           {
             source: '/images/historynew.svg',
             title: this.$t('blocflex.cards.history'),

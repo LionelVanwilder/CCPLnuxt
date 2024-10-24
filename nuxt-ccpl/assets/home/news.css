@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   background-color: #EBEBEB;
+   /*background-color: #EBEBEB;*/
     position: relative;
     margin: 6rem 3rem;
     
@@ -15,7 +15,7 @@
     text-transform: uppercase;
     font-weight: 500;
     font-style: normal;
-    margin-bottom: 4rem;
+    /*margin-bottom: 4rem;*/
 }
 
 .container-news{
@@ -94,10 +94,10 @@
     margin-top: auto;
     letter-spacing: 1.5px;
     cursor: pointer;
-    color: #ffffff;
+    color: #005387;
     border: 2px solid #005387;
     transition: transform .3s ease-in-out;
-    background-color: #005387;
+    background-color: #ffffff;
     padding: 0.7rem;
     border-radius: 6px;
     margin-top: 1.3rem;
@@ -114,9 +114,20 @@
     font-size: 1rem;
 }
 
-#news .icon-bloc-flex{
+/*#news .icon-bloc-flex{
     transform: scale(1.2) !important;
     right: 30px !important;
+}*/
+
+#news .icon-bloc-flex{
+    position: inherit;
+}
+
+#newstitleicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
 }
 
 @media all and (max-width: 1366px){

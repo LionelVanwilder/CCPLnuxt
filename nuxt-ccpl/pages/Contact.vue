@@ -5,6 +5,7 @@
         <div class="info-container">
             <h3>{{ $t("Contact.schedule") }}</h3>
         <div class="hours-container">
+            <h4>{{ $t("Contact.scolar") }}</h4>
             <div class="hours-content">
                 <p class="day">{{ $t("Contact.Mon") }}</p>
                 <p class="hours">{{ $t("Contact.open") }}</p>
@@ -24,6 +25,38 @@
             <div class="hours-content">
                 <p class="day">{{ $t("Contact.fri") }}</p>
                 <p class="hours">{{ $t("Contact.open") }}</p>
+            </div>
+            <div class="hours-content">
+                <p class="day">{{ $t("Contact.sat") }}</p>
+                <p class="hours">{{ $t("Contact.close") }}</p>
+            </div>
+            <div class="hours-content">
+                <p class="day">{{ $t("Contact.sun") }}</p>
+                <p class="hours">{{ $t("Contact.close") }}</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="hours-container">
+            <h4>{{ $t("Contact.holidays") }}</h4>
+            <div class="hours-content">
+                <p class="day">{{ $t("Contact.Mon") }}</p>
+                <p class="hours">{{ $t("Contact.openhol") }}</p>
+            </div>
+            <div class="hours-content">
+                <p class="day">{{ $t("Contact.tue") }}</p>
+                <p class="hours">{{ $t("Contact.openhol") }}</p>
+            </div>
+            <div class="hours-content">
+                <p class="day">{{ $t("Contact.wed") }}</p>
+                <p class="hours">{{ $t("Contact.openhol") }}</p>
+            </div>
+            <div class="hours-content">
+                <p class="day">{{ $t("Contact.thu") }}</p>
+                <p class="hours">{{ $t("Contact.openhol") }}</p>
+            </div>
+            <div class="hours-content">
+                <p class="day">{{ $t("Contact.fri") }}</p>
+                <p class="hours">{{ $t("Contact.openhol") }}</p>
             </div>
             <div class="hours-content">
                 <p class="day">{{ $t("Contact.sat") }}</p>
@@ -92,6 +125,11 @@
 
     h3{
         color: #005387;
+    }
+
+    h4{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
     }
     
     .hours-container{

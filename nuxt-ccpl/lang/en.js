@@ -12,6 +12,8 @@ export default{
 
     Contact: {
         schedule: 'Opening hours',
+        scolar: 'During the school year',
+        holidays: 'During the school holidays',
         Mon: 'Monday',
         tue: 'Tuesday',
         wed: 'Wednesday',
@@ -19,7 +21,8 @@ export default{
          fri: 'Friday',
         sat: 'Saturday',
         sun: 'Sunday',
-        open: '08:30am - 5:00pm',
+        open: '08:00am - 6:00pm',
+        openhol: '08:30am - 4:30pm',
         close: 'Closed',
         route: 'How to get to the center?',
         metro: '7 minutes of the metro Alma',
@@ -184,7 +187,7 @@ export default{
 
         gridleft: {
             title: 'You can choose a domiciliation or donation by <span style="color: #005387; font-weight: 700;">bank transfer</span>',
-            info: 'Comprendre et Parler NPO<br>Rue de la Rive, 101<br>1200 Brussels<br>IBAN : BE22 2100 4361 0747<br>BIC : GEBABEBB',
+            info: 'Comprendre et Parler NPO<br>Rue de la Rive, 101<br>1200 Brussels<br>IBAN : BE22 2100 4361 0747<br>BIC : GEBABEBB<br>Communication: Donations + national registry number',
             text: 'By clicking <span><router-link to="/Competences" style="color: #005387;text-decoration: underline;font-weight: 600 !important;transition: .3s ease-in-out;cursor: pointer;">this link</router-link></span>, you will find a bank transfer to download.<br> Please complete and forward to your bank'
         },
 
